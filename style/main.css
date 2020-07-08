@@ -47,6 +47,7 @@ h1.title {
     top: -50px;
     opacity: 0; } }
 .scores-container {
+  margin-top: 25px;
   float: right;
   text-align: right; }
 
@@ -149,7 +150,8 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #bbada0; 
+  background:transparent;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -583,6 +585,7 @@ hr {
     -ms-touch-action: none;
     touch-action: none;
     background: #bbada0;
+	background:transparent;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -782,4 +785,7 @@ hr {
     left: 50%;
     width: 50%;
 }
+}
+span.red {
+    color: red;
 }
