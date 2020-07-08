@@ -8,7 +8,7 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 80px 0 0 0; }
 
 .heading:after {
   content: "";
@@ -756,3 +756,30 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+	
+	@media only screen and (min-width: 1200px) {
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+}
+  .heading {
+    width: 50%;
+    float: right;
+}
+.above-game {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 136px;
+}
+.game-container {
+    bottom: 8.5em;
+}
+  p.game-explanation , p.game-credits {
+    position: relative;
+    bottom: 500px;
+    left: 50%;
+    width: 50%;
+}
+}
